@@ -1,0 +1,13 @@
+name: EasySpawn
+version: 1.0.0
+api: 5.0.0
+author: LixPL
+main: LixPL\EasySpawn\Main
+commands:
+  spawn:
+    description: Teleport to spawn
+    permission: easyspawn.spawn.use
+permissions:
+  easyspawn.spawn.use:
+    description: Allows the player to enter the spawn command 
+    default: true
